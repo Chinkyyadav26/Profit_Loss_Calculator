@@ -1,0 +1,60 @@
+@import url('https://googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;700&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#14FFEC;
+    --dark-green: #0D7377;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+header{
+    padding: 1rem;
+    box-shadow: 1px 1px 6px black;
+    background-color: var(--primary-color);
+}
+/* header */
+ header h1{
+    text-align: center;
+}
+.input-label{
+    display: block;
+    font-size: larger;
+    margin: 2rem 0px;
+    font-weight: 600;
+}
+.input{
+    display: block;
+    font-size: large;
+    margin: 1rem auto;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    max-width: 325px;
+    border: 2px solid var(--dark-green);
+    border-radius: 0.5rem;
+    outline: #fff;
+                                                               
+}
+.btn-check{
+    background-color: var(--primary-color);
+    border: 2px solid var(--dark-green);
+    color: #200e0e;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: auto;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn-check:hover{
+    background-color: white;
+    border: 1px solid var(--dark-green);
+    color: var(--dark-green);
+}
